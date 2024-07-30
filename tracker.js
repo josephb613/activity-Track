@@ -344,7 +344,7 @@ class WebUpdateTracker {
                 this.previousContent = currentContent;
                 await this.savePreviousContent(currentContent);
             } else {
-                console.log('Aucune mise à jour significative détectée.');
+                console.log('Aucune mise à jour significative détectée');
             }
         } catch (error) {
             console.error('Erreur lors de la vérification des mises à jour:', error);
