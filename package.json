@@ -1,0 +1,20 @@
+{
+  "name": "web-scraper-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tracker.js",
+  "scripts": {
+    "dev": "node tracker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "puppeteer": "^22.14.0"
+  }
+}
